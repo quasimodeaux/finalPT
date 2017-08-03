@@ -1,0 +1,45 @@
+{
+
+  "development": {
+
+    "username": "root",
+
+    "password": "!vegotB1gballs",
+
+    "database": "project_db",
+
+    "host": "127.0.0.1",
+
+    "dialect": "mysql"
+
+  },
+
+  "test": {
+
+    "username": "root",
+
+    "password": "!vegotB1gballs",
+
+    "database": "",
+
+    "host": "",
+
+    "dialect": "mysql"
+
+  },
+
+  "production": {
+
+    "username": "root",
+
+    "password": "!vegotB1gballs",
+
+    "database": "",
+
+    "host": "127.0.0.1",
+
+    "dialect": "mysql"
+
+  }
+
+}
