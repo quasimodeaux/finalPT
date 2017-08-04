@@ -49,6 +49,9 @@ models.sequelize.sync().then(function() {
 //Routes
 var authRoute = require('./app/routes/auth.js')(app);
 
+// passport strats
+require('./app/config/passport/passport.js')(passport, models.user);
+
 
 //ForHandlebars
 app.set('views', './app/views')
